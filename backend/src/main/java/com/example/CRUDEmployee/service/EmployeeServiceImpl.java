@@ -14,6 +14,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     private EmployeeRepository employeeRepository;
 
     public EmployeeServiceImpl(EmployeeRepository employeeRepository) {
+
         this.employeeRepository = employeeRepository;
     }
 
